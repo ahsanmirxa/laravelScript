@@ -1,0 +1,16 @@
+# PRE-REQUISITIES
+# If it is a private repository, make sure to add server SSH public key in repository before executing this script
+# projectName and repositoryName must be same
+# targetDirectory, dbUser and dbPassword must exist
+# webUrl must be pointed to the target server already so that SSL can be applied
+# Do not end targetDirectory with forward slash
+
+targetDirectory=/home/ahsan/sites
+projectName=subquch-laravel
+dbName=subquch
+dbUser=ahsan
+dbPassword=ahsan
+repositoryUrl=git@bitbucket.org:cooperativecomputing/subquch-laravel.git
+webUrl=demo.subquch.io
+# Databse root password
+rootPassword=kesc@118
