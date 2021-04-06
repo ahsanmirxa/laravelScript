@@ -55,6 +55,7 @@ echo -e "\n8. Setup required permissions in projectDirectory"
 
 find . -type d -exec chmod 0775 {} \;
 find . -type f -exec chmod 0664 {} \;
+sudo chmod -R 0777 storage/
 
 # If need to assign TargetDirectory ownership to another user
 # sudo chown -R cc:www-data $targetDirectory/$projectName
