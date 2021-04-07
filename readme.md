@@ -1,4 +1,4 @@
-## wpSetup
+## laravelScript
 
 This script will setup Laravel project based on provided repository
 
